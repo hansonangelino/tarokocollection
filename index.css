@@ -1,0 +1,174 @@
+* {
+	margin: 0;
+	padding: 0;
+	font-family: arial;
+}
+@media only screen and (max-width: 720px) {
+	div.nav_links {
+		display: none;
+	}
+	div.landing_page {
+		display: block;
+		margin-top: 60.67px;
+	}
+	div.title {
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		margin-right: 0;
+		margin-bottom: 8px;
+	}
+	div.main_img {
+		background-image: url(landing.jpg);
+	}
+	div.gap {
+		padding-bottom: 24px;
+	}
+	div.product {
+		text-align: center;
+	}
+	div.gallery {
+		display: grid;
+		grid-template-columns: 1fr 1fr;
+	}
+	div.gallery_img{
+		margin-bottom: 6vw;
+	}
+	div.about_page {
+		display: block;
+	}
+	div.about_desc {
+		flex: 1;
+
+	}
+	div.desc p{
+		text-align: justify;
+	}
+	div.about_img {
+		margin-right: 0;
+	}
+	div.contact {
+	align-items: default;
+	}
+	div.map {
+		margin-bottom: 8px;
+	}
+	div.contact_desc {
+		display: flex;
+		flex-direction: row;
+		margin-bottom: 8px;
+		align-items: center;
+	}
+	div.contact_descs {
+		flex: 2;
+		justify-content: flex-start;
+	}
+	div.call_btn {
+		flex: 1;
+		background-color: #098100;
+		padding: 4px;
+		margin-left: 8px;
+	}
+}
+header {
+	display: flex;
+	padding: 4px;
+	position: fixed;
+	top: 0;
+	left: 0;
+	right: 0;
+	background-color: white;
+	box-shadow: 0px 5px 5px 0 rgba(0,0,0,0.10),
+				0px 5px 15px 0 rgba(0,0,0,0.20);
+}
+.gap {
+	padding-bottom: 50.67px;
+}
+.logo {
+	flex: 1.25;
+	margin-left: 24px;
+}
+.logo img:hover {
+	opacity: 50%;
+}
+nav {
+	flex: 1;
+	margin-right: 20px;
+}
+.nav_links {
+	display: flex;
+	float: right;
+	justify-content: space-around;
+}
+a.nav_item {
+	padding: 8px 32px;
+	color: black;
+	text-decoration: none;
+}
+a.nav_item:hover {
+	background-color: #656565;
+	color: white;
+}
+.landing_page {
+	display: flex;
+/*	flex-direction: column;*/
+	margin-top: 42.67px;
+	align-items: center;
+}
+.title {
+	flex: 1;
+	margin-right: 16px;
+}
+.main_img {
+	background-image: url(landing.jpg);
+	background-size: contain;
+	flex: 1.5;
+}
+.product {
+	text-align: center;
+}
+.gallery {
+	display: flex;
+}
+.gallery_img {
+	margin: 0px 8px;
+}
+.cta a{
+	text-decoration: none;
+	color: white;
+	background-color: #049E6D;
+	padding: 8px 24px;
+	border-radius: 8px;
+}
+.about_page {
+	display: flex;
+/*	flex-direction: column;*/
+}
+.about_desc {
+	flex: 1;
+}
+.desc p{
+	text-align: justify;
+}
+.about_img {
+	flex: 1;
+	margin-right: 8px;
+}
+.copyright {
+	background-color: #4A4A4A;
+	padding: 16px;
+	color: white;
+}
+.contact {
+	margin-bottom: 16px;
+	display: flex;
+	flex-direction: column;
+}
+.contact_desc {
+	text-align: center;
+}
+.call_btn a{
+	color: white;
+	text-decoration: none;
+	padding: 4px 28px;
+}
