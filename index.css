@@ -4,8 +4,38 @@
 	font-family: arial;
 }
 @media only screen and (max-width: 720px) {
+	header {
+		display: flex;
+		flex-direction: column;
+	}
+	hr {
+		margin: 4px;
+	}
+	nav {
+		width: 100%;
+	}
+	.logo {
+		margin-top: 4px;
+	}
+	.home {
+		float: right;
+		height: 100%;
+		margin-right: 24px;
+	}
 	div.nav_links {
+		margin: 8px 0px;
+		float: none;
+		flex-direction: column;
+		text-align: center;
+	}
+	div.nav_linkshide {
 		display: none;
+	}
+	div a.nav_item {
+		margin: 4px 16px;
+		padding: 4vw;
+		color: white;
+		background-color: #707070;
 	}
 	div.landing_page {
 		display: block;

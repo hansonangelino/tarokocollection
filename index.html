@@ -13,9 +13,12 @@
 			<a href="">
 				<img src="nav_icon.png" alt="" style="height: 30.67px;">
 			</a>
+			<img src="home.svg" alt="" class="home" onclick="myFunction()">
 		</div>
 		<nav>
-			<div class="nav_links">
+			<div class="nav_linkshide" id="myTopnav">
+				<hr>
+				<p style="margin: 8px 0; font-size: 5vw"><b>NAVIGATION BAR</b></p>
 				<a href="" class="nav_item">Home</a>
 				<a href="#product_p" class="nav_item">Product</a>
 				<a href="#about_p" class="nav_item">About</a>
@@ -117,5 +120,16 @@
 			<p style="text-align: center;">Copyright 2020 by <a href="" style="color: white; text-decoration: none"><i>@Hanstopz Creation</i></a></p>
 		</div>
 	</footer>
+	<script>
+		function myFunction() {
+			var x =
+		document.getElementById('myTopnav');
+			if (x.className === "nav_links") {
+				x.className += "hide";
+			} else {
+				x.className = "nav_links";
+			}
+		}
+	</script>
 </body>
 </html>
