@@ -9,7 +9,7 @@
 	}
 	div.landing_page {
 		display: block;
-		margin-top: 60.67px;
+		margin-top: 56.67px;
 	}
 	div.title {
 		display: flex;
@@ -21,8 +21,12 @@
 	div.main_img {
 		background-image: url(landing.jpg);
 	}
+	div.headline {
+		text-align: center;
+		margin: 2vw;
+	}
 	div.gap {
-		padding-bottom: 24px;
+		padding-bottom: 0;
 	}
 	div.product {
 		text-align: center;
@@ -38,36 +42,39 @@
 		display: block;
 	}
 	div.about_desc {
-		flex: 1;
-
+		display: block;
 	}
 	div.desc p{
 		text-align: justify;
 	}
 	div.about_img {
+		display: block;
 		margin-right: 0;
 	}
 	div.contact {
-	align-items: default;
+		display: block;
 	}
 	div.map {
 		margin-bottom: 8px;
 	}
 	div.contact_desc {
 		display: flex;
-		flex-direction: row;
 		margin-bottom: 8px;
 		align-items: center;
 	}
-	div.contact_descs {
+	div.contact_desc p{
 		flex: 2;
-		justify-content: flex-start;
+		margin-bottom: 0;
 	}
 	div.call_btn {
 		flex: 1;
+		text-align: center;
 		background-color: #098100;
-		padding: 4px;
-		margin-left: 8px;
+		margin: 0;
+	}
+	div.call_btn a{
+		color: white;
+		text-decoration: none;
 	}
 }
 header {
@@ -141,14 +148,13 @@ a.nav_item:hover {
 	border-radius: 8px;
 }
 .about_page {
-	display: flex;
-/*	flex-direction: column;*/
+
 }
 .about_desc {
-	flex: 1;
+	display: flex;
 }
-.desc p{
-	text-align: justify;
+.desc {
+	flex: 1;
 }
 .about_img {
 	flex: 1;
@@ -162,13 +168,27 @@ a.nav_item:hover {
 .contact {
 	margin-bottom: 16px;
 	display: flex;
-	flex-direction: column;
+	flex-direction: row-reverse;
+	align-items: center;
+}
+.map {
+	flex: 1;
 }
 .contact_desc {
-	text-align: center;
+	flex: 1;
+}
+.contact_desc p{
+	margin-bottom: 32px;
 }
 .call_btn a{
 	color: white;
 	text-decoration: none;
 	padding: 4px 28px;
+}
+.call_btn {
+	width: 25%;
+	text-align: center;
+	background-color: #098100;
+	padding: 4px;
+	margin-left: 8px;
 }
