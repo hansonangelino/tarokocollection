@@ -10,15 +10,11 @@
 <body>
 	<header>
 		<div class="logo">
-			<a href="">
-				<img src="nav_icon.png" alt="" style="height: 30.67px;">
-			</a>
+			<a href=""><img src="nav_icon.png" alt="" style="height: 30.67px;"></a>
 			<img src="home.svg" alt="" class="home" onclick="myFunction()" style="height: 30.67px;">
 		</div>
 		<nav>
-			<div class="nav_linkshide" id="myTopnav">
-				<hr>
-				<p style="margin: 8px 0; font-size: 5vw"><b>PILIHAN UTAMA</b></p>
+			<div class="nav_links">
 				<a href="" class="nav_item">Home</a>
 				<a href="#product_p" class="nav_item">Product</a>
 				<a href="#about_p" class="nav_item">About</a>
@@ -79,20 +75,57 @@
 						</div>
 					</div>
 				</div>
+				<div class="gallery_img">
+					<img src="1.jpg" alt="" style="width: 100%;">
+					<div class="info">
+						<p>This is new product, come and take a see</p><br>
+						<div class="cta">
+							<a href="">Shop Now</a>
+						</div>
+					</div>
+				</div>
+				<div class="gallery_img">
+					<img src="1.jpg" alt="" style="width: 100%;">
+					<div class="info">
+						<p>This is new product, come and take a see</p><br>
+						<div class="cta">
+							<a href="">Shop Now</a>
+						</div>
+					</div>
+				</div>
+				<div class="gallery_img">
+					<img src="1.jpg" alt="" style="width: 100%;">
+					<div class="info">
+						<p>This is new product, come and take a see</p><br>
+						<div class="cta">
+							<a href="">Shop Now</a>
+						</div>
+					</div>
+				</div>
+				<div class="gallery_img">
+					<img src="1.jpg" alt="" style="width: 100%;">
+					<div class="info">
+						<p>This is new product, come and take a see</p><br>
+						<div class="cta">
+							<a href="">Shop Now</a>
+						</div>
+					</div>
+				</div>
 			</div>
 		</div>
 		<div class="gap" id="about_p"></div>
 		<div class="about">
 			<div class="about_page">
-				<div class="headline">
-					<h1>About</h1>
-				</div>
-				<div class="about_desc">
+				<div class="about_flex">
 					<div class="about_img">
 						<img src="landing.jpg" alt="" style="width: 100%">
 					</div>
-					<div class="desc">
-						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Beatae quod sit architecto nesciunt, nam saepe cum! Delectus debitis, hic soluta.</p>
+					<div class="about_desc">
+						<div class="headline">
+							<h1>About</h1>
+						</div>
+						<img src="landing.jpg" alt="" class="desc_img_resp">
+						<p style="margin-top: 16px;">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Beatae quod sit architecto nesciunt, nam saepe cum! Delectus debitis, hic soluta.</p>
 						<br>
 						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Beatae quod sit architecto nesciunt, nam saepe cum! Delectus debitis, hic soluta Lorem ipsum dolor sit amet, consectetur adipisicing elit. Earum autem ex voluptatem dolores, fugit id assum</p>
 					</div>
@@ -100,18 +133,24 @@
 			</div>
 		</div>
 		<div class="gap" id="contact_p"></div>
-		<div class="headline">
-			<h1>Contact</h1>
-		</div>
-		<div class="contact">
-			<div class="map">
+		<div class="contact_flex">
+			<div class="contact_img">
 				<img src="landing.jpg" alt="" style="width: 100%;">
 			</div>
 			<div class="contact_desc">
-				<p>Lorem ipsum dolor sit amet?</p>
-				<div class="call_btn">
-					<a href="">Call us</a>					
+				<div class="contact_desc_txt">
+					<div class="headline">
+						<h1>Contact</h1>
+					</div>
+					<img src="landing.jpg" alt="" class="desc_img_resp">
+					<p style="margin: 0 auto;" class="desc_text_resp">Lorem ipsum dolor sit amet?</p>
 				</div>
+				<span class="contact_cta_resp">
+					<p style="flex: 2">Lorem ipsum dolor sit amet?</p>
+					<div class="call_btn">
+						<a href="">Call us</a>					
+					</div>
+				</span>
 			</div>
 		</div>
 	</main>
@@ -120,16 +159,5 @@
 			<p style="text-align: center;">Copyright 2020 by <a href="" style="color: white; text-decoration: none"><i>@Hanstopz Creation</i></a></p>
 		</div>
 	</footer>
-	<script>
-		function myFunction() {
-			var x =
-		document.getElementById('myTopnav');
-			if (x.className === "nav_links") {
-				x.className += "hide";
-			} else {
-				x.className = "nav_links";
-			}
-		}
-	</script>
 </body>
 </html>
