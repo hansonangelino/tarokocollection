@@ -95,6 +95,7 @@
 	div.about_desc {
 		display: block;
 		text-align: justify;
+		margin: 0;
 	}
 	div.about_img {
 		display: none;
@@ -116,6 +117,7 @@
 	}
 	div.contact_desc {
 		display: block;
+		margin: 0;
 	}
 	div.contact_desc_txt{
 		display: flex;
@@ -230,9 +232,11 @@ a.nav_item:hover {
 }
 .about_desc {
 	flex: 1;
+	margin: 8px;
 }
 .about_img {
 	flex: 1;
+	margin: 8px;
 }
 .desc_img_resp {
 	display: none;
@@ -250,10 +254,12 @@ a.nav_item:hover {
 }
 .contact_img {
 	flex: 1;
+	margin: 8px;
 }
 .contact_desc {
 	flex: 1;
 	text-align: center;
+	margin: 8px;
 }
 .contact_desc_txt{
 	margin-bottom: 64px;
